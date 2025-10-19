@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin: 2.2rem 0rem;
+    padding: 0rem 1.5rem;
+
+
+}
+#line1 , #line2, #line3{
+    width: 2px;
+    height: 90px;
+    background-color: black;
+}
+.logo i{
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 8rem;
+    margin-top: 7rem;
+    
+  
+
+}
+
+.logo p{
+    font-size: .75rem;
+    padding-left: 3rem;
+}
+#main-video{
+    width: 1350px;
+    height: 640px;
+    object-fit: cover;
+    margin: 0rem 2.75rem;
+    position: relative;
+   
+   
+}
+
+.video-leyar{
+    width: 1350px;
+    height: 324px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    margin: 0px 43px;
+    gap: 2px;
+    position: absolute;
+    bottom: 14px;
+    color: rgba(238, 234, 234, 0.959);
+    /* background-color: rgba(255, 255, 255, 0.519); */
+    background-color: #928e8850;
+
+}
+.upper{
+ 
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.upper h2{
+    font-size: 60px;
+    color: white;
+}
+.upper p{
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.mid{
+   
+    width: 90%;
+    height: 2px;
+    background-color: rgb(247, 247, 247);
+}
+.bottom{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.bottom h3{
+    color: white;
+    font-weight: 100;
+}
+.bottom i{
+  
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
